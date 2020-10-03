@@ -6,9 +6,10 @@ module.exports = {
     filename: 'bundle.js'
   },
   // sourcemap: true,
+  devtool: 'inline-source-map',
   watch: true,
   devServer: {
-    contenBase: './dist'
+    contentBase: './dist'
   },
   module: {
     rules: [
